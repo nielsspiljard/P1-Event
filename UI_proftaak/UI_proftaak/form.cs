@@ -44,6 +44,8 @@ namespace UI_proftaak
             //make connection
             try
             {
+
+                //ERGNETJESENZO
                 brick = new Brick(new BluetoothCommunication(COMID));
                 brick.BrickChanged += Brick_BrickChanged;
 

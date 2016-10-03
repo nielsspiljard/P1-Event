@@ -8,3 +8,6 @@ c:\users\bram\documents\visual studio 2015\Projects\UI_proftaak\UI_proftaak\obj\
 c:\users\bram\documents\visual studio 2015\Projects\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.exe
 c:\users\bram\documents\visual studio 2015\Projects\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.pdb
 C:\Users\Bram\Documents\Visual Studio 2015\Projects\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.Form_2.resources
+C:\Users\Niels\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\bin\Debug\UI_proftaak.exe.config
+C:\Users\Niels\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.exe
+C:\Users\Niels\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.pdb
