@@ -140,7 +140,7 @@
             this.txtCom.Name = "txtCom";
             this.txtCom.Size = new System.Drawing.Size(352, 22);
             this.txtCom.TabIndex = 9;
-            this.txtCom.Text = "#";
+            this.txtCom.Text = "11";
             // 
             // lblCom
             // 
