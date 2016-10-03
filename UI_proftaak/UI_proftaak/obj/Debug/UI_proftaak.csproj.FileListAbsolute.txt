@@ -8,3 +8,15 @@ c:\users\bram\documents\visual studio 2015\Projects\UI_proftaak\UI_proftaak\obj\
 c:\users\bram\documents\visual studio 2015\Projects\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.exe
 c:\users\bram\documents\visual studio 2015\Projects\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.pdb
 C:\Users\Bram\Documents\Visual Studio 2015\Projects\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.Form_2.resources
+C:\Users\Bram\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\bin\Debug\UI_proftaak.exe.config
+C:\Users\Bram\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.exe
+C:\Users\Bram\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.pdb
+C:\Users\Bram\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\bin\Debug\UI_proftaak.exe
+C:\Users\Bram\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\bin\Debug\UI_proftaak.pdb
+C:\Users\Bram\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\bin\Debug\Lego.Ev3.Desktop.dll
+C:\Users\Bram\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\bin\Debug\Lego.Ev3.Desktop.xml
+C:\Users\Bram\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.csprojResolveAssemblyReference.cache
+C:\Users\Bram\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.fromStart.resources
+C:\Users\Bram\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.Form_2.resources
+C:\Users\Bram\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.Properties.Resources.resources
+C:\Users\Bram\Source\Repos\P1-Event\UI_proftaak\UI_proftaak\obj\Debug\UI_proftaak.csproj.GenerateResource.Cache

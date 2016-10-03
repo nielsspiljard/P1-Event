@@ -164,6 +164,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "fromStart";
             this.Text = "UI Robot Cipier";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.fromStart_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

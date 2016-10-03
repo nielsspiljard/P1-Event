@@ -17,6 +17,8 @@ namespace UI_proftaak
         String holdText;
         Brick brick;
         String COMID;
+        int speed_Forwards = 40, speed_Backwards = 20;
+        ushort time_Drive = 1000, time_Wait = 500;
         public fromStart()
         {
             InitializeComponent();
@@ -44,26 +46,24 @@ namespace UI_proftaak
             //make connection
             try
             {
+                txtInfo.AppendText("Connecting ..." + Environment.NewLine);
                 brick = new Brick(new BluetoothCommunication(COMID));
-                brick.BrickChanged += Brick_BrickChanged;
 
                 //connect, send and receive data
                 await brick.ConnectAsync();
 
-                //brick command
-                await brick.DirectCommand.PlayToneAsync(100, 1000, 500);
-                txtInfo.Text = "Connection Successful!";
+                //show Connection
+                await brick.DirectCommand.PlayToneAsync(50, 100, time_Wait);
+                txtInfo.AppendText("Connection Successful!" + Environment.NewLine);
+
+                txtCom.Enabled = false;
+                txtCom.Clear();
             }
             catch
             {
-                txtInfo.Text = "Connection Failed. \nMake sure your COM-port is correct!";
+                txtInfo.AppendText("Connection Failed. \nMake sure your COM-port is correct!" + Environment.NewLine);
             }
-        }
-
-        //when brick changed state
-        private void Brick_BrickChanged(object sender, BrickChangedEventArgs e)
-        {
-            txtInfo.Text = "Brick Changed!";
+            Program();
         }
 
         private void btnStop_Click(object sender, EventArgs e)
@@ -101,6 +101,10 @@ namespace UI_proftaak
             btnStopRobot.Enabled = false;
             btnStartRobot.Enabled = true;
         }
-    }
 
+        public async void Program()
+        {
+            this.Focus();
+        }
+     }
 }
